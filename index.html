@@ -1,23 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Ejercicio de Scratch</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicios de Scratch</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      margin: 40px;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    .ejercicio {
+      margin-bottom: 50px;
+    }
+
+    .botones {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .botones button {
+      padding: 15px 25px;
+      font-size: 16px;
+      cursor: pointer;
+      flex: 1 1 200px;
+      max-width: 300px;
+    }
+
+    hr {
+      margin: 50px auto;
+      width: 80%;
+      border: 1px solid #ccc;
+    }
+  </style>
 </head>
-<body style="text-align: center; margin-top: 100px; font-family: sans-serif;">
-  <h1>Ejercicio de Scratch — Haz clic para abrir o descargar</h1>
+<body>
 
-  <button onclick="window.open('https://scratch.mit.edu/projects/1214427359', '_blank')" style="padding: 20px; font-size: 18px; margin: 10px;">
-    Ver Online en Scratch
-  </button>
+   <!-- ✅ EJERCICIO 2 -->
+  <div class="ejercicio">
+    <h1>Ejercicio 2 (16-09-2025)— Haz clic para abrir o descargar</h1>
+    <div class="botones">
+      <button onclick="window.open('https://scratch.mit.edu/projects/1214446218/editor', '_blank')">Abrir en Scratch</button>
+      <button onclick="window.location.href='https://scratch.mit.edu/projects/831634280/download'">Descargar</button>
+    </div>
+  </div>
 
-  <br>
+  <hr>
 
-  <button onclick="window.open('https://drive.google.com/uc?export=download&id=1gz-XZOIFBywxsWbQuhHCykCU25YG4lwm', '_blank')" style="padding: 20px; font-size: 18px; margin: 10px;">
-    Descargar para usar en Scratch Desktop
-  </button>
-</body>
-</html>
+  <!-- ✅ EJERCICIO 1 -->
+  <div class="ejercicio">
+    <h1>Ejercicio 1 (09-09-2025) — Haz clic para abrir o descargar</h1>
+    <div class="botones">
+      <button onclick="window.open('https://scratch.mit.edu/projects/1214427359', '_blank')">Abrir en Scratch</button>
+      <button onclick="window.location.href='https://drive.google.com/uc?export=download&id=1gz-XZOIFBywxsWbQuhHCykCU25YG4lwm'">Descargar</button>
+    </div>
+  </div>
+
+  <hr>
 
 
 
