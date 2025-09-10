@@ -35,6 +35,18 @@
       max-width: 300px;
     }
 
+    /* Estilo para el botón "Abrir en Scratch" */
+    .abrir-scratch {
+      background-color: #4C97FF; /* Azul Scratch */
+      color: white;
+      border: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .abrir-scratch:hover {
+      background-color: #9966FF; /* Violeta Scratch */
+    }
+
     hr {
       margin: 50px auto;
       width: 80%;
@@ -44,11 +56,11 @@
 </head>
 <body>
 
-   <!-- ✅ EJERCICIO 2 -->
+  <!-- ✅ EJERCICIO 2 -->
   <div class="ejercicio">
     <h1>Ejercicio 2 (16-09-2025)— Haz clic para abrir o descargar</h1>
     <div class="botones">
-      <button onclick="window.open('https://scratch.mit.edu/projects/1214446218/editor', '_blank')">Abrir en Scratch</button>
+      <button class="abrir-scratch" onclick="window.open('https://scratch.mit.edu/projects/1214446218/editor', '_blank')">Abrir en Scratch</button>
       <button onclick="window.location.href='https://scratch.mit.edu/projects/831634280/download'">Descargar</button>
     </div>
   </div>
@@ -59,15 +71,12 @@
   <div class="ejercicio">
     <h1>Ejercicio 1 (09-09-2025) — Haz clic para abrir o descargar</h1>
     <div class="botones">
-      <button onclick="window.open('https://scratch.mit.edu/projects/1214427359', '_blank')">Abrir en Scratch</button>
+      <button class="abrir-scratch" onclick="window.open('https://scratch.mit.edu/projects/1214427359', '_blank')">Abrir en Scratch</button>
       <button onclick="window.location.href='https://drive.google.com/uc?export=download&id=1gz-XZOIFBywxsWbQuhHCykCU25YG4lwm'">Descargar</button>
     </div>
   </div>
 
   <hr>
 
-
-
-
-
-
+</body>
+</html>
